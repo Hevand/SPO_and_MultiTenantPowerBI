@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 This sample demonstrates how to embed a PowerBi report that is created and maintained by Tenant B into SharePoint Online environment managed by Tenant A. Disclaimer: the current solution is based on a real-world scenario, but it is not the only way to achieve this goal. Some of the design decisions taken here will be influenced by customer-specific reasoning.
 
 This sample is applicable for the following situation: 
