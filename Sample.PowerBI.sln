@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.SPO.AppParts", "SharePoint\Sample.SPO.AppParts.csproj", "{63794397-53E2-46C9-A5CB-2A992126BC34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.ProviderHosted.AppParts.PowerBiConnector", "ProviderHosted\Sample.ProviderHosted.AppParts.PowerBiConnector.csproj", "{3FAE2047-E685-4AF1-A25B-6BE5AB3B5AFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Script", "Script", "{CB97F450-AE4D-4A39-A96E-85081AAFFC5B}"
+	ProjectSection(SolutionItems) = preProject
+		Script\app_permissions.json = Script\app_permissions.json
+		Script\deploy.sh = Script\deploy.sh
+		Script\powerbi.ps1 = Script\powerbi.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report", "Report", "{F2760C75-7E90-4A22-A9E9-79270F907696}"
+	ProjectSection(SolutionItems) = preProject
+		Report\Example1.pbix = Report\Example1.pbix
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63794397-53E2-46C9-A5CB-2A992126BC34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63794397-53E2-46C9-A5CB-2A992126BC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63794397-53E2-46C9-A5CB-2A992126BC34}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{63794397-53E2-46C9-A5CB-2A992126BC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63794397-53E2-46C9-A5CB-2A992126BC34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63794397-53E2-46C9-A5CB-2A992126BC34}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3FAE2047-E685-4AF1-A25B-6BE5AB3B5AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAE2047-E685-4AF1-A25B-6BE5AB3B5AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FAE2047-E685-4AF1-A25B-6BE5AB3B5AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FAE2047-E685-4AF1-A25B-6BE5AB3B5AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66B61993-5956-47FD-B61F-44680A1977FD}
+	EndGlobalSection
+EndGlobal

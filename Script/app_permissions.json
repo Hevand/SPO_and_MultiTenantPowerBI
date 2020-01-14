@@ -1,0 +1,44 @@
+[
+    {
+      "resourceAppId": "00000009-0000-0000-c000-000000000000",
+      "resourceAccess": [
+        {
+          "id": "76e2ebd5-0dfb-4a5b-93c7-ed89e0362834",
+          "type": "Scope"
+        },
+        {
+          "id": "2448370f-f988-42cd-909c-6528efd67c1a",
+          "type": "Scope"
+        },
+        {
+          "id": "7f33e027-4039-419b-938e-2f8ca153e68e",
+          "type": "Scope"
+        },
+        {
+          "id": "a65a6bd9-0978-46d6-a261-36b3e6fdd32e",
+          "type": "Scope"
+        },
+        {
+          "id": "4ae1bf56-f562-4747-b7bc-2fa0874ed46f",
+          "type": "Scope"
+        },
+        {
+          "id": "b2f1b2fa-f35c-407c-979c-a858a808ba85",
+          "type": "Scope"
+        },
+        {
+          "id": "445002fb-a6f2-4dc1-a81e-4254a111cd29",
+          "type": "Scope"
+        }
+      ]
+    },
+    {
+      "resourceAppId": "00000002-0000-0000-c000-000000000000",
+      "resourceAccess": [
+        {
+          "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+          "type": "Scope"
+        }
+      ]
+    }
+  ]

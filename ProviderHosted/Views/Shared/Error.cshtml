@@ -1,0 +1,22 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron" style="background-color: darkorange; color: white">
+            <h2>Please use SharePoint Online</h2>
+            <p style="font-size: 12px;">This piece of example code is used to demonstrate the ability to have row-level security / user authentication in a multi-tenant environment. More specifically, to demonstrate the identity flow between SharePoint Online (owned by Tenant A) and a PowerBI environment (owned by Tenant B).</p>
+            <p style="font-size: 12px;">A crucial part of this validation is authentication. If this addin is NOT launched from within SharePoint Online, the user identity cannot be determined. This will result in this page to be shown.</p>
+            <p style="font-size: 12px;">To address the issue, please try again by launching the app installed on your site.</p>
+        </div>
+    </div>
+</body>
+</html>
