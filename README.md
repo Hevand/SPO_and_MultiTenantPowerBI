@@ -14,7 +14,7 @@ SharePoint Online offers an OOTB web part, which supports the integration and se
 
 # Approach
 Instead of using the out of the box web part, we can design a solution based on the SharePoint Provider-hosted app model and PowerBI Embedded: 
-![Approach](/assets/approach.jpg)
+![Approach](Assets/approach.jpg)
 
 In this setup, ownership between Tenant A and Tenant B is defined as follows: 
 - The SharePoint Online environment belongs to Tenant A. 
